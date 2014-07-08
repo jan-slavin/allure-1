@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AllureCSharpCommons</id>
+    <version>0.0.1.30800</version>
+    <title>AllureCSharpCommons</title>
+    <authors>Ilya Murzinov</authors>
+    <owners>Ilya Murzinov</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/allure-framework/allure-csharp-commons</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C-Sharp implementations of core Allure events, exceptions, lifecycle entry-points.</description>
+    <releaseNotes>Fix severity-level and add Allure.ResultsPath</releaseNotes>
+    <copyright>Copyright 2014 Murzinov Ilya</copyright>
+    <dependencies>
+      <dependency id="log4net" version="2.0.3" />
+      <dependency id="NUnit" version="2.6.3" />
+    </dependencies>
+  </metadata>
+</package>
