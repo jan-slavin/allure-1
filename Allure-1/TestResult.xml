@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\belyaev\Documents\Visual Studio 2013\Projects\Allure-1\Allure-1\bin\Debug\Allure-1.dll" total="3" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-07-09" time="03:47:17">
+  <environment nunit-version="2.6.3.13283" clr-version="2.0.50727.5466" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Users\belyaev\Documents\Visual Studio 2013\Projects\Allure-1\Allure-1\bin\Debug" machine-name="PLUTO" user="belyaev" user-domain="Pluto" />
+  <culture-info current-culture="ru-RU" current-uiculture="ru-RU" />
+  <test-suite type="Assembly" name="C:\Users\belyaev\Documents\Visual Studio 2013\Projects\Allure-1\Allure-1\bin\Debug\Allure-1.dll" executed="True" result="Failure" success="False" time="0.192" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Allure_1" executed="True" result="Failure" success="False" time="0.173" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="Class1" executed="True" result="Failure" success="False" time="0.161" asserts="0">
+            <results>
+              <test-case name="Allure_1.Class1.Do1" executed="True" result="Success" success="True" time="0.034" asserts="1" />
+              <test-case name="Allure_1.Class1.Do2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="Allure_1.Class1.Do3" executed="True" result="Failure" success="False" time="0.078" asserts="1">
+                <failure>
+                  <message><![CDATA[  String lengths are both 1. Strings differ at index 0.
+  Expected: "6"
+  But was:  "7"
+  -----------^
+]]></message>
+                  <stack-trace><![CDATA[в Allure_1.Class1.Do3() в c:\Users\belyaev\Documents\Visual Studio 2013\Projects\Allure-1\Allure-1\Class1.cs:строка 35
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
